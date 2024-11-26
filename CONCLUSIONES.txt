@@ -1,0 +1,17 @@
+#############  CONCLUSIONES  ###############
+
+La framework SERENITY BDD permite realizar pruebas funcionales de manera rápida y sencilla,
+lo que permite ahorrar tiempo al momento de su ejecución.
+
+Gracias a la integración de Cucumber con Serenity nos permite escribir pruebas legibles para los usuarios y desarrolladores,
+Cuenta con la capacidad de generar informes detallados de las pruebas de automatización que se realizó, estos resultados generados
+son fáciles de interpretar y comprender, siendo de gran utilidad para los testers del proyecto ya que incluye que pasos pasaron
+o fallaron y capturas de pantalla.
+
+Con la elaboracion del proyecto se  ampliaron los conocimientos y técnicas respecto al framework Serenity llegando
+a la conclusión que la automatización de pruebas es la mejor práctica o técnica para pruebas de regresión ya que facilita
+la deteción de errores de manera muy sencilla y se ve de forma dinámica todo el flujo de la aplicación.
+
+Con Serenity se evaluó el fujo completo de una transacción, desde la navegación  empezando desde el inicio de sesión,
+la selección de productos para añadir al carrito de compras y el formulario de pago hasta finalizar con la compra, verificando
+que los componentes del sistema funcionen correctamente en conjunto.

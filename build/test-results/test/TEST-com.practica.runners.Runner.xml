@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.practica.runners.Runner" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-26T03:36:25" hostname="Air-de-Pablo.bbrouter" time="14.108">
+  <properties/>
+  <testcase name="Añadir 2 productos" classname="com.practica.runners.Runner" time="14.108"/>
+  <system-out><![CDATA[
+@buyClothes
+Scenario Outline: Añadir 2 productos                                                                              ?[90m# src/test/resources/features/buyClothes.feature:13?[0m
+  ?[32mGiven ?[0m?[32m?[0m?[32m?[1mPablo?[0m?[32m ingresar a la pagina principal?[0m                                                                      ?[90m# com.practica.stepsDefinitions.buysStepDefinition.homeCart(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mingresar clothes ?[0m?[32m?[1m"standard_user"?[0m?[32m , ?[0m?[32m?[1m"secret_sauce"?[0m?[32m en donde selecciono dos productos?[0m                         ?[90m# com.practica.stepsDefinitions.buysStepDefinition.ingresarClothes(java.lang.String,java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mvisualizo el carrito de compra y doy click en checkout?[0m                                                     ?[90m# com.practica.stepsDefinitions.buysStepDefinition.visualizarCarrito()?[0m
+  ?[32mAnd ?[0m?[32mcompleto el formulario de compra ?[0m?[32m?[1m"Pablo"?[0m?[32m,?[0m?[32m?[1m"Ludenia"?[0m?[32m,?[0m?[32m?[1m"10101"?[0m?[32m hago click en continuar para continuar la compra?[0m ?[90m# com.practica.stepsDefinitions.buysStepDefinition.ingresarDatosFormulario(java.lang.String,java.lang.String,java.lang.String)?[0m
+  ?[32mThen ?[0m?[32mhago click en finalizar compra y valido el mensaje ?[0m?[32m?[1m"Thank you for your order!"?[0m                             ?[90m# com.practica.stepsDefinitions.buysStepDefinition.finalizarCompra(java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[nov. 25, 2024 10:36:39 P. M. org.openqa.selenium.os.ExternalProcess$Builder lambda$start$0
+ADVERTENCIA: failed to copy the output of process 1882
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.base/java.io.InputStream.transferTo(InputStream.java:782)
+	at org.openqa.selenium.os.ExternalProcess$Builder.lambda$start$0(ExternalProcess.java:209)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+]]></system-err>
+</testsuite>
